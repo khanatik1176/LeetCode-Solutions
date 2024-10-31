@@ -9,6 +9,8 @@ var missingNumber = function(nums) {
         countHashtable[i] = 0;
     }
 
+    console.log(countHashtable);
+
     for(let j=0; j<=totalNumbers; j++)
     {
         if(countHashtable.hasOwnProperty(nums[j]))
